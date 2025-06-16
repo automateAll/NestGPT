@@ -10,8 +10,10 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Property {
-    String id;
-    String address;
-    double price;
-    String thumbnailUrl;
+    private String id;
+    private String address;
+    private double price;
+    private String thumbnailUrl;
+    private double latitude;
+    private double longitude;
 }

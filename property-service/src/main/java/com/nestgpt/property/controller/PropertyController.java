@@ -19,7 +19,7 @@ public class PropertyController {
         this.propertyService = propertyService;
     }
 
-    @GetMapping("")
+    @GetMapping("/")
     public List<Property> getPropertiesList(@RequestParam(required = false) String zip,
                                   @RequestParam(required = false) String city,
                                   @RequestParam(required = false) String state){
