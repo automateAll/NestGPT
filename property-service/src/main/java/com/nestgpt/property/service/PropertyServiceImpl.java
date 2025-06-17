@@ -18,8 +18,8 @@ public class PropertyServiceImpl implements PropertyService {
         this.propertyRepository = propertyRepository;
     }
 
-    public List<Property> getPropertiesList(String query){
-        return propertyRepository.getPropertiesList(query);
+    public List<Property> getPropertiesList(String location){
+        return propertyRepository.getPropertiesList(location);
     }
 
     public PropertyContext getPropertyContext(String propertyId){
