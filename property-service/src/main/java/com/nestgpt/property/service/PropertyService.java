@@ -6,6 +6,6 @@ import com.nestgpt.property.model.PropertyContext;
 import java.util.List;
 
 public interface PropertyService {
-    public List<Property> getPropertiesList(String query);
+    public List<Property> getPropertiesList(String location);
     public PropertyContext getPropertyContext(String id);
 }

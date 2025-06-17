@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 1,
+    "address": "3585 Main St, Atlanta, GA 27845",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": 27845,
+    "latitude": 33.746844,
+    "longitude": -84.384315,
+    "price": 188838,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 2450,
+    "year_built": 2001,
+    "property_type": "Apartment",
+    "description": "2 bed, 2 bath home in Atlanta with 2450 sqft.",
+    "images": [
+      "https://picsum.photos/seed/183/400/300",
+      "https://picsum.photos/seed/137/400/300",
+      "https://picsum.photos/seed/111/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Carlos Martinez",
+      "phone": "(956) 718-1172",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 2,
+    "address": "8642 Main St, Denver, CO 99549",
+    "city": "Denver",
+    "state": "CO",
+    "zip": 99549,
+    "latitude": 39.730828,
+    "longitude": -104.990583,
+    "price": 457107,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "area": 2073,
+    "year_built": 2001,
+    "property_type": "Condo",
+    "description": "5 bed, 2 bath home in Denver with 2073 sqft.",
+    "images": [
+      "https://picsum.photos/seed/159/400/300",
+      "https://picsum.photos/seed/173/400/300",
+      "https://picsum.photos/seed/146/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(295) 732-4497",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 3,
+    "address": "4419 Pine St, Austin, TX 39254",
+    "city": "Austin",
+    "state": "TX",
+    "zip": 39254,
+    "latitude": 30.26826,
+    "longitude": -97.738837,
+    "price": 577882,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 1253,
+    "year_built": 2010,
+    "property_type": "Townhouse",
+    "description": "4 bed, 3 bath home in Austin with 1253 sqft.",
+    "images": [
+      "https://picsum.photos/seed/188/400/300",
+      "https://picsum.photos/seed/119/400/300",
+      "https://picsum.photos/seed/191/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Emily Chen",
+      "phone": "(355) 487-2361",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 4,
+    "address": "1145 Main St, San Jose, CA 48907",
+    "city": "San Jose",
+    "state": "CA",
+    "zip": 48907,
+    "latitude": 37.329705,
+    "longitude": -121.881131,
+    "price": 614383,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 2028,
+    "year_built": 1977,
+    "property_type": "Apartment",
+    "description": "2 bed, 2 bath home in San Jose with 2028 sqft.",
+    "images": [
+      "https://picsum.photos/seed/169/400/300",
+      "https://picsum.photos/seed/164/400/300",
+      "https://picsum.photos/seed/129/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Carlos Martinez",
+      "phone": "(911) 583-4990",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 5,
+    "address": "7712 Main St, Orlando, FL 54118",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": 54118,
+    "latitude": 28.533341,
+    "longitude": -81.386551,
+    "price": 502605,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 2819,
+    "year_built": 1994,
+    "property_type": "Apartment",
+    "description": "3 bed, 2 bath home in Orlando with 2819 sqft.",
+    "images": [
+      "https://picsum.photos/seed/191/400/300",
+      "https://picsum.photos/seed/183/400/300",
+      "https://picsum.photos/seed/130/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(277) 569-6661",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 6,
+    "address": "5153 Main St, San Jose, CA 63514",
+    "city": "San Jose",
+    "state": "CA",
+    "zip": 63514,
+    "latitude": 37.333674,
+    "longitude": -121.89153,
+    "price": 440862,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 2242,
+    "year_built": 1990,
+    "property_type": "Condo",
+    "description": "2 bed, 2 bath home in San Jose with 2242 sqft.",
+    "images": [
+      "https://picsum.photos/seed/171/400/300",
+      "https://picsum.photos/seed/191/400/300",
+      "https://picsum.photos/seed/172/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Emily Chen",
+      "phone": "(624) 266-8740",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 7,
+    "address": "7402 Maple Ave, Denver, CO 37159",
+    "city": "Denver",
+    "state": "CO",
+    "zip": 37159,
+    "latitude": 39.73289,
+    "longitude": -104.996425,
+    "price": 221616,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area": 1282,
+    "year_built": 2009,
+    "property_type": "Condo",
+    "description": "4 bed, 2 bath home in Denver with 1282 sqft.",
+    "images": [
+      "https://picsum.photos/seed/103/400/300",
+      "https://picsum.photos/seed/162/400/300",
+      "https://picsum.photos/seed/158/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(839) 302-1625",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 8,
+    "address": "6650 Maple Ave, Hicksville, NY 65241",
+    "city": "Hicksville",
+    "state": "NY",
+    "zip": 65241,
+    "latitude": 40.759634,
+    "longitude": -73.534971,
+    "price": 593382,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area": 1671,
+    "year_built": 1998,
+    "property_type": "Single Family",
+    "description": "2 bed, 3 bath home in Hicksville with 1671 sqft.",
+    "images": [
+      "https://picsum.photos/seed/152/400/300",
+      "https://picsum.photos/seed/144/400/300",
+      "https://picsum.photos/seed/167/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(590) 369-4227",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 9,
+    "address": "7254 Main St, Denver, CO 47696",
+    "city": "Denver",
+    "state": "CO",
+    "zip": 47696,
+    "latitude": 39.739937,
+    "longitude": -104.996198,
+    "price": 638549,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 2657,
+    "year_built": 1979,
+    "property_type": "Single Family",
+    "description": "4 bed, 3 bath home in Denver with 2657 sqft.",
+    "images": [
+      "https://picsum.photos/seed/197/400/300",
+      "https://picsum.photos/seed/185/400/300",
+      "https://picsum.photos/seed/199/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(822) 425-1113",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 10,
+    "address": "3860 Maple Ave, Seattle, WA 28092",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": 28092,
+    "latitude": 47.616118,
+    "longitude": -122.328404,
+    "price": 696111,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "area": 1510,
+    "year_built": 2016,
+    "property_type": "Condo",
+    "description": "4 bed, 1 bath home in Seattle with 1510 sqft.",
+    "images": [
+      "https://picsum.photos/seed/124/400/300",
+      "https://picsum.photos/seed/107/400/300",
+      "https://picsum.photos/seed/122/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(432) 822-4282",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 11,
+    "address": "8235 Main St, Austin, TX 46583",
+    "city": "Austin",
+    "state": "TX",
+    "zip": 46583,
+    "latitude": 30.263919,
+    "longitude": -97.747691,
+    "price": 713984,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": 1702,
+    "year_built": 1983,
+    "property_type": "Single Family",
+    "description": "2 bed, 1 bath home in Austin with 1702 sqft.",
+    "images": [
+      "https://picsum.photos/seed/122/400/300",
+      "https://picsum.photos/seed/120/400/300",
+      "https://picsum.photos/seed/191/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(219) 687-1533",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 12,
+    "address": "1606 Oak Dr, Atlanta, GA 82737",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": 82737,
+    "latitude": 33.751194,
+    "longitude": -84.381031,
+    "price": 839750,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area": 936,
+    "year_built": 2008,
+    "property_type": "Condo",
+    "description": "2 bed, 3 bath home in Atlanta with 936 sqft.",
+    "images": [
+      "https://picsum.photos/seed/116/400/300",
+      "https://picsum.photos/seed/196/400/300",
+      "https://picsum.photos/seed/135/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(548) 307-8958",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 13,
+    "address": "7934 Pine St, Phoenix, AZ 89494",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": 89494,
+    "latitude": 33.457586,
+    "longitude": -112.076602,
+    "price": 600738,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 1760,
+    "year_built": 2010,
+    "property_type": "Condo",
+    "description": "3 bed, 2 bath home in Phoenix with 1760 sqft.",
+    "images": [
+      "https://picsum.photos/seed/164/400/300",
+      "https://picsum.photos/seed/165/400/300",
+      "https://picsum.photos/seed/192/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(735) 612-2166",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 14,
+    "address": "5886 Maple Ave, Seattle, WA 50360",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": 50360,
+    "latitude": 47.609904,
+    "longitude": -122.333355,
+    "price": 821034,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area": 1619,
+    "year_built": 2018,
+    "property_type": "Single Family",
+    "description": "2 bed, 3 bath home in Seattle with 1619 sqft.",
+    "images": [
+      "https://picsum.photos/seed/196/400/300",
+      "https://picsum.photos/seed/173/400/300",
+      "https://picsum.photos/seed/159/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(530) 851-1913",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 15,
+    "address": "5965 Main St, Hicksville, NY 50901",
+    "city": "Hicksville",
+    "state": "NY",
+    "zip": 50901,
+    "latitude": 40.765749,
+    "longitude": -73.527044,
+    "price": 393841,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 1764,
+    "year_built": 1991,
+    "property_type": "Single Family",
+    "description": "4 bed, 3 bath home in Hicksville with 1764 sqft.",
+    "images": [
+      "https://picsum.photos/seed/167/400/300",
+      "https://picsum.photos/seed/146/400/300",
+      "https://picsum.photos/seed/191/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(384) 738-1255",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 16,
+    "address": "7955 Main St, Phoenix, AZ 78070",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": 78070,
+    "latitude": 33.440175,
+    "longitude": -112.076999,
+    "price": 572582,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area": 2937,
+    "year_built": 2013,
+    "property_type": "Apartment",
+    "description": "2 bed, 3 bath home in Phoenix with 2937 sqft.",
+    "images": [
+      "https://picsum.photos/seed/173/400/300",
+      "https://picsum.photos/seed/181/400/300",
+      "https://picsum.photos/seed/163/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(747) 121-7009",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 17,
+    "address": "3742 Oak Dr, Phoenix, AZ 58818",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": 58818,
+    "latitude": 33.443507,
+    "longitude": -112.073791,
+    "price": 568032,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area": 1577,
+    "year_built": 1990,
+    "property_type": "Condo",
+    "description": "4 bed, 2 bath home in Phoenix with 1577 sqft.",
+    "images": [
+      "https://picsum.photos/seed/100/400/300",
+      "https://picsum.photos/seed/113/400/300",
+      "https://picsum.photos/seed/114/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Carlos Martinez",
+      "phone": "(887) 268-5827",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 18,
+    "address": "4343 Maple Ave, Denver, CO 83657",
+    "city": "Denver",
+    "state": "CO",
+    "zip": 83657,
+    "latitude": 39.729498,
+    "longitude": -104.990739,
+    "price": 563146,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area": 1653,
+    "year_built": 1979,
+    "property_type": "Condo",
+    "description": "2 bed, 3 bath home in Denver with 1653 sqft.",
+    "images": [
+      "https://picsum.photos/seed/151/400/300",
+      "https://picsum.photos/seed/147/400/300",
+      "https://picsum.photos/seed/104/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(445) 826-6188",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 19,
+    "address": "6771 Oak Dr, Denver, CO 99076",
+    "city": "Denver",
+    "state": "CO",
+    "zip": 99076,
+    "latitude": 39.743606,
+    "longitude": -104.985837,
+    "price": 260074,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": 1007,
+    "year_built": 2007,
+    "property_type": "Condo",
+    "description": "2 bed, 1 bath home in Denver with 1007 sqft.",
+    "images": [
+      "https://picsum.photos/seed/166/400/300",
+      "https://picsum.photos/seed/178/400/300",
+      "https://picsum.photos/seed/147/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(918) 130-6673",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 20,
+    "address": "5014 Oak Dr, Raleigh, NC 97914",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip": 97914,
+    "latitude": 35.771534,
+    "longitude": -78.640163,
+    "price": 725762,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "area": 1817,
+    "year_built": 1983,
+    "property_type": "Apartment",
+    "description": "3 bed, 1 bath home in Raleigh with 1817 sqft.",
+    "images": [
+      "https://picsum.photos/seed/173/400/300",
+      "https://picsum.photos/seed/141/400/300",
+      "https://picsum.photos/seed/155/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Emily Chen",
+      "phone": "(610) 889-3811",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 21,
+    "address": "5336 Maple Ave, Austin, TX 61673",
+    "city": "Austin",
+    "state": "TX",
+    "zip": 61673,
+    "latitude": 30.271061,
+    "longitude": -97.746447,
+    "price": 835018,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 2956,
+    "year_built": 2001,
+    "property_type": "Condo",
+    "description": "4 bed, 3 bath home in Austin with 2956 sqft.",
+    "images": [
+      "https://picsum.photos/seed/154/400/300",
+      "https://picsum.photos/seed/131/400/300",
+      "https://picsum.photos/seed/196/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Emily Chen",
+      "phone": "(924) 507-6161",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 22,
+    "address": "9257 Pine St, Atlanta, GA 19738",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": 19738,
+    "latitude": 33.750651,
+    "longitude": -84.388253,
+    "price": 870566,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "area": 1197,
+    "year_built": 2001,
+    "property_type": "Townhouse",
+    "description": "5 bed, 2 bath home in Atlanta with 1197 sqft.",
+    "images": [
+      "https://picsum.photos/seed/149/400/300",
+      "https://picsum.photos/seed/174/400/300",
+      "https://picsum.photos/seed/145/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(862) 189-6635",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 23,
+    "address": "4973 Pine St, Denver, CO 83742",
+    "city": "Denver",
+    "state": "CO",
+    "zip": 83742,
+    "latitude": 39.738573,
+    "longitude": -104.998159,
+    "price": 781036,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "area": 2302,
+    "year_built": 1999,
+    "property_type": "Townhouse",
+    "description": "4 bed, 1 bath home in Denver with 2302 sqft.",
+    "images": [
+      "https://picsum.photos/seed/194/400/300",
+      "https://picsum.photos/seed/134/400/300",
+      "https://picsum.photos/seed/160/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Emily Chen",
+      "phone": "(612) 304-1179",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 24,
+    "address": "7873 Main St, Seattle, WA 23954",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": 23954,
+    "latitude": 47.613405,
+    "longitude": -122.335659,
+    "price": 431978,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 2597,
+    "year_built": 2012,
+    "property_type": "Apartment",
+    "description": "3 bed, 2 bath home in Seattle with 2597 sqft.",
+    "images": [
+      "https://picsum.photos/seed/190/400/300",
+      "https://picsum.photos/seed/171/400/300",
+      "https://picsum.photos/seed/110/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(368) 416-8410",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 25,
+    "address": "8083 Pine St, Orlando, FL 92565",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": 92565,
+    "latitude": 28.540628,
+    "longitude": -81.379094,
+    "price": 890194,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area": 933,
+    "year_built": 1999,
+    "property_type": "Townhouse",
+    "description": "4 bed, 2 bath home in Orlando with 933 sqft.",
+    "images": [
+      "https://picsum.photos/seed/161/400/300",
+      "https://picsum.photos/seed/107/400/300",
+      "https://picsum.photos/seed/134/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(304) 674-8565",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 26,
+    "address": "2055 Oak Dr, Austin, TX 78813",
+    "city": "Austin",
+    "state": "TX",
+    "zip": 78813,
+    "latitude": 30.259769,
+    "longitude": -97.744588,
+    "price": 294402,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area": 1723,
+    "year_built": 1989,
+    "property_type": "Single Family",
+    "description": "2 bed, 3 bath home in Austin with 1723 sqft.",
+    "images": [
+      "https://picsum.photos/seed/164/400/300",
+      "https://picsum.photos/seed/160/400/300",
+      "https://picsum.photos/seed/181/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Carlos Martinez",
+      "phone": "(423) 910-3295",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 27,
+    "address": "8250 Main St, San Jose, CA 93393",
+    "city": "San Jose",
+    "state": "CA",
+    "zip": 93393,
+    "latitude": 37.332692,
+    "longitude": -121.895627,
+    "price": 795052,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "area": 1529,
+    "year_built": 2010,
+    "property_type": "Condo",
+    "description": "5 bed, 1 bath home in San Jose with 1529 sqft.",
+    "images": [
+      "https://picsum.photos/seed/163/400/300",
+      "https://picsum.photos/seed/159/400/300",
+      "https://picsum.photos/seed/115/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(982) 274-4710",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 28,
+    "address": "311 Pine St, Austin, TX 70696",
+    "city": "Austin",
+    "state": "TX",
+    "zip": 70696,
+    "latitude": 30.267274,
+    "longitude": -97.746746,
+    "price": 804545,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area": 2168,
+    "year_built": 2002,
+    "property_type": "Single Family",
+    "description": "4 bed, 2 bath home in Austin with 2168 sqft.",
+    "images": [
+      "https://picsum.photos/seed/169/400/300",
+      "https://picsum.photos/seed/129/400/300",
+      "https://picsum.photos/seed/165/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Carlos Martinez",
+      "phone": "(806) 930-7731",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 29,
+    "address": "3465 Pine St, Raleigh, NC 41826",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip": 41826,
+    "latitude": 35.785241,
+    "longitude": -78.641845,
+    "price": 607439,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "area": 1079,
+    "year_built": 2007,
+    "property_type": "Apartment",
+    "description": "5 bed, 1 bath home in Raleigh with 1079 sqft.",
+    "images": [
+      "https://picsum.photos/seed/146/400/300",
+      "https://picsum.photos/seed/155/400/300",
+      "https://picsum.photos/seed/169/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Carlos Martinez",
+      "phone": "(442) 612-1210",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 30,
+    "address": "3948 Pine St, Hicksville, NY 76560",
+    "city": "Hicksville",
+    "state": "NY",
+    "zip": 76560,
+    "latitude": 40.758821,
+    "longitude": -73.527927,
+    "price": 250073,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area": 2675,
+    "year_built": 2002,
+    "property_type": "Single Family",
+    "description": "4 bed, 2 bath home in Hicksville with 2675 sqft.",
+    "images": [
+      "https://picsum.photos/seed/126/400/300",
+      "https://picsum.photos/seed/195/400/300",
+      "https://picsum.photos/seed/113/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(870) 646-1508",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 31,
+    "address": "9701 Oak Dr, Raleigh, NC 54806",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip": 54806,
+    "latitude": 35.772754,
+    "longitude": -78.646271,
+    "price": 649873,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area": 1352,
+    "year_built": 1979,
+    "property_type": "Apartment",
+    "description": "4 bed, 2 bath home in Raleigh with 1352 sqft.",
+    "images": [
+      "https://picsum.photos/seed/199/400/300",
+      "https://picsum.photos/seed/161/400/300",
+      "https://picsum.photos/seed/103/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Carlos Martinez",
+      "phone": "(757) 217-2503",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 32,
+    "address": "1831 Main St, Hicksville, NY 40337",
+    "city": "Hicksville",
+    "state": "NY",
+    "zip": 40337,
+    "latitude": 40.761996,
+    "longitude": -73.520295,
+    "price": 229799,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 2285,
+    "year_built": 2003,
+    "property_type": "Apartment",
+    "description": "3 bed, 3 bath home in Hicksville with 2285 sqft.",
+    "images": [
+      "https://picsum.photos/seed/147/400/300",
+      "https://picsum.photos/seed/150/400/300",
+      "https://picsum.photos/seed/185/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Carlos Martinez",
+      "phone": "(344) 920-2409",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 33,
+    "address": "9046 Oak Dr, Hicksville, NY 54300",
+    "city": "Hicksville",
+    "state": "NY",
+    "zip": 54300,
+    "latitude": 40.770798,
+    "longitude": -73.53066,
+    "price": 580530,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "area": 2502,
+    "year_built": 1996,
+    "property_type": "Single Family",
+    "description": "3 bed, 1 bath home in Hicksville with 2502 sqft.",
+    "images": [
+      "https://picsum.photos/seed/196/400/300",
+      "https://picsum.photos/seed/157/400/300",
+      "https://picsum.photos/seed/138/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Emily Chen",
+      "phone": "(285) 782-4443",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 34,
+    "address": "4046 Pine St, Seattle, WA 13565",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": 13565,
+    "latitude": 47.604755,
+    "longitude": -122.331115,
+    "price": 211227,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": 1793,
+    "year_built": 1978,
+    "property_type": "Townhouse",
+    "description": "2 bed, 1 bath home in Seattle with 1793 sqft.",
+    "images": [
+      "https://picsum.photos/seed/133/400/300",
+      "https://picsum.photos/seed/186/400/300",
+      "https://picsum.photos/seed/123/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Emily Chen",
+      "phone": "(478) 526-4434",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 35,
+    "address": "6651 Pine St, Austin, TX 21661",
+    "city": "Austin",
+    "state": "TX",
+    "zip": 21661,
+    "latitude": 30.265475,
+    "longitude": -97.748629,
+    "price": 937002,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "area": 2890,
+    "year_built": 2003,
+    "property_type": "Single Family",
+    "description": "4 bed, 1 bath home in Austin with 2890 sqft.",
+    "images": [
+      "https://picsum.photos/seed/155/400/300",
+      "https://picsum.photos/seed/170/400/300",
+      "https://picsum.photos/seed/111/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(561) 210-3171",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 36,
+    "address": "8219 Oak Dr, Seattle, WA 97474",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": 97474,
+    "latitude": 47.604063,
+    "longitude": -122.336463,
+    "price": 654680,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 2809,
+    "year_built": 1976,
+    "property_type": "Condo",
+    "description": "3 bed, 3 bath home in Seattle with 2809 sqft.",
+    "images": [
+      "https://picsum.photos/seed/190/400/300",
+      "https://picsum.photos/seed/169/400/300",
+      "https://picsum.photos/seed/191/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(862) 676-9189",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 37,
+    "address": "3583 Maple Ave, Denver, CO 15066",
+    "city": "Denver",
+    "state": "CO",
+    "zip": 15066,
+    "latitude": 39.741799,
+    "longitude": -104.996065,
+    "price": 911427,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": 2247,
+    "year_built": 2007,
+    "property_type": "Condo",
+    "description": "2 bed, 1 bath home in Denver with 2247 sqft.",
+    "images": [
+      "https://picsum.photos/seed/173/400/300",
+      "https://picsum.photos/seed/110/400/300",
+      "https://picsum.photos/seed/133/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Carlos Martinez",
+      "phone": "(315) 539-5940",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 38,
+    "address": "5019 Main St, Orlando, FL 37062",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": 37062,
+    "latitude": 28.540931,
+    "longitude": -81.37997,
+    "price": 434070,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area": 1322,
+    "year_built": 1987,
+    "property_type": "Townhouse",
+    "description": "4 bed, 2 bath home in Orlando with 1322 sqft.",
+    "images": [
+      "https://picsum.photos/seed/176/400/300",
+      "https://picsum.photos/seed/192/400/300",
+      "https://picsum.photos/seed/117/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Emily Chen",
+      "phone": "(898) 662-7226",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 39,
+    "address": "1872 Pine St, Raleigh, NC 54452",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip": 54452,
+    "latitude": 35.788829,
+    "longitude": -78.640627,
+    "price": 754276,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 1650,
+    "year_built": 1986,
+    "property_type": "Apartment",
+    "description": "4 bed, 3 bath home in Raleigh with 1650 sqft.",
+    "images": [
+      "https://picsum.photos/seed/124/400/300",
+      "https://picsum.photos/seed/167/400/300",
+      "https://picsum.photos/seed/110/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(483) 536-5126",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 40,
+    "address": "2271 Maple Ave, Denver, CO 41263",
+    "city": "Denver",
+    "state": "CO",
+    "zip": 41263,
+    "latitude": 39.745276,
+    "longitude": -104.997914,
+    "price": 705127,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "area": 1974,
+    "year_built": 2000,
+    "property_type": "Townhouse",
+    "description": "4 bed, 1 bath home in Denver with 1974 sqft.",
+    "images": [
+      "https://picsum.photos/seed/190/400/300",
+      "https://picsum.photos/seed/144/400/300",
+      "https://picsum.photos/seed/121/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(316) 254-9545",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 41,
+    "address": "5512 Pine St, Phoenix, AZ 29662",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": 29662,
+    "latitude": 33.449712,
+    "longitude": -112.064028,
+    "price": 863191,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": 2707,
+    "year_built": 1989,
+    "property_type": "Apartment",
+    "description": "2 bed, 1 bath home in Phoenix with 2707 sqft.",
+    "images": [
+      "https://picsum.photos/seed/100/400/300",
+      "https://picsum.photos/seed/116/400/300",
+      "https://picsum.photos/seed/166/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(327) 916-2037",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 42,
+    "address": "6005 Oak Dr, San Jose, CA 56171",
+    "city": "San Jose",
+    "state": "CA",
+    "zip": 56171,
+    "latitude": 37.33292,
+    "longitude": -121.881065,
+    "price": 150176,
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "area": 2810,
+    "year_built": 1984,
+    "property_type": "Condo",
+    "description": "4 bed, 1 bath home in San Jose with 2810 sqft.",
+    "images": [
+      "https://picsum.photos/seed/135/400/300",
+      "https://picsum.photos/seed/129/400/300",
+      "https://picsum.photos/seed/101/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Carlos Martinez",
+      "phone": "(553) 131-4112",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 43,
+    "address": "4406 Maple Ave, Hicksville, NY 98021",
+    "city": "Hicksville",
+    "state": "NY",
+    "zip": 98021,
+    "latitude": 40.760301,
+    "longitude": -73.534636,
+    "price": 680788,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 2782,
+    "year_built": 1999,
+    "property_type": "Apartment",
+    "description": "2 bed, 2 bath home in Hicksville with 2782 sqft.",
+    "images": [
+      "https://picsum.photos/seed/190/400/300",
+      "https://picsum.photos/seed/108/400/300",
+      "https://picsum.photos/seed/109/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(445) 873-3823",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 44,
+    "address": "8895 Maple Ave, Denver, CO 72721",
+    "city": "Denver",
+    "state": "CO",
+    "zip": 72721,
+    "latitude": 39.743176,
+    "longitude": -104.996194,
+    "price": 158056,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 2129,
+    "year_built": 2016,
+    "property_type": "Townhouse",
+    "description": "3 bed, 3 bath home in Denver with 2129 sqft.",
+    "images": [
+      "https://picsum.photos/seed/109/400/300",
+      "https://picsum.photos/seed/191/400/300",
+      "https://picsum.photos/seed/190/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Emily Chen",
+      "phone": "(979) 187-4412",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 45,
+    "address": "1463 Maple Ave, Bentonville, AR 23694",
+    "city": "Bentonville",
+    "state": "AR",
+    "zip": 23694,
+    "latitude": 36.375895,
+    "longitude": -94.209536,
+    "price": 434991,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area": 2958,
+    "year_built": 1996,
+    "property_type": "Single Family",
+    "description": "4 bed, 2 bath home in Bentonville with 2958 sqft.",
+    "images": [
+      "https://picsum.photos/seed/185/400/300",
+      "https://picsum.photos/seed/178/400/300",
+      "https://picsum.photos/seed/105/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(661) 358-8791",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 46,
+    "address": "1122 Oak Dr, Hicksville, NY 47993",
+    "city": "Hicksville",
+    "state": "NY",
+    "zip": 47993,
+    "latitude": 40.758904,
+    "longitude": -73.523881,
+    "price": 722060,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 1603,
+    "year_built": 2005,
+    "property_type": "Condo",
+    "description": "2 bed, 2 bath home in Hicksville with 1603 sqft.",
+    "images": [
+      "https://picsum.photos/seed/125/400/300",
+      "https://picsum.photos/seed/101/400/300",
+      "https://picsum.photos/seed/122/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(588) 204-5890",
+      "agency": "Prime Realty"
+    }
+  },
+  {
+    "id": 47,
+    "address": "9262 Oak Dr, San Jose, CA 39733",
+    "city": "San Jose",
+    "state": "CA",
+    "zip": 39733,
+    "latitude": 37.345813,
+    "longitude": -121.894597,
+    "price": 398596,
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "area": 1865,
+    "year_built": 2006,
+    "property_type": "Condo",
+    "description": "5 bed, 2 bath home in San Jose with 1865 sqft.",
+    "images": [
+      "https://picsum.photos/seed/158/400/300",
+      "https://picsum.photos/seed/162/400/300",
+      "https://picsum.photos/seed/102/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Emily Chen",
+      "phone": "(295) 687-8570",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 48,
+    "address": "585 Oak Dr, Hicksville, NY 54383",
+    "city": "Hicksville",
+    "state": "NY",
+    "zip": 54383,
+    "latitude": 40.77253,
+    "longitude": -73.516775,
+    "price": 848795,
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "area": 1932,
+    "year_built": 2010,
+    "property_type": "Apartment",
+    "description": "5 bed, 1 bath home in Hicksville with 1932 sqft.",
+    "images": [
+      "https://picsum.photos/seed/170/400/300",
+      "https://picsum.photos/seed/107/400/300",
+      "https://picsum.photos/seed/164/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "John Lee",
+      "phone": "(442) 271-4279",
+      "agency": "Urban Nest"
+    }
+  },
+  {
+    "id": 49,
+    "address": "8988 Pine St, Denver, CO 88272",
+    "city": "Denver",
+    "state": "CO",
+    "zip": 88272,
+    "latitude": 39.748923,
+    "longitude": -104.983608,
+    "price": 812834,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area": 2655,
+    "year_built": 1978,
+    "property_type": "Apartment",
+    "description": "4 bed, 2 bath home in Denver with 2655 sqft.",
+    "images": [
+      "https://picsum.photos/seed/190/400/300",
+      "https://picsum.photos/seed/114/400/300",
+      "https://picsum.photos/seed/154/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(819) 558-2064",
+      "agency": "Northwest Estates"
+    }
+  },
+  {
+    "id": 50,
+    "address": "1882 Pine St, Orlando, FL 18945",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": 18945,
+    "latitude": 28.538644,
+    "longitude": -81.384054,
+    "price": 746449,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 2246,
+    "year_built": 1987,
+    "property_type": "Single Family",
+    "description": "3 bed, 3 bath home in Orlando with 2246 sqft.",
+    "images": [
+      "https://picsum.photos/seed/145/400/300",
+      "https://picsum.photos/seed/143/400/300",
+      "https://picsum.photos/seed/141/400/300"
+    ],
+    "listing_status": "For Sale",
+    "agent": {
+      "name": "Sarah Smith",
+      "phone": "(679) 885-1919",
+      "agency": "Northwest Estates"
+    }
+  }
+]
