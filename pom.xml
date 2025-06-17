@@ -12,7 +12,6 @@
 
     <modules>
         <module>property-service</module>
-        <module>chat-service</module>
     </modules>
 
     <properties>
