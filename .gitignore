@@ -33,3 +33,6 @@ build/
 
 ### iml files ###
 property-service.iml
+
+### .env file ###
+chat-service/.env
