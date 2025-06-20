@@ -6,7 +6,6 @@ import com.nestgpt.property.repository.PropertyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service("propertyService")
@@ -22,7 +21,7 @@ public class PropertyServiceImpl implements PropertyService {
         return propertyRepository.getPropertiesList(location);
     }
 
-    public PropertyContext getPropertyContext(String propertyId){
+    public Property getPropertyContext(String propertyId){
         return propertyRepository.getPropertyContext(propertyId);
     }
 }

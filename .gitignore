@@ -36,3 +36,19 @@ property-service.iml
 
 ### .env file ###
 chat-service/.env
+
+# Chat-service Python artifacts
+chat-service/__pycache__/
+__pycache__/
+*.py[cod]
+chat-service/**/*.py[cod]
+chat-service/**/*.pyo
+chat-service/**/*.pyd
+chat-service/**/*.egg-info/
+chat-service/.venv/
+chat-service/venv/
+chat-service/.env
+chat-service/**/.env
+chat-service/*.log
+chat-service/dist/
+chat-service/build/

@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Repository("propertyRepository")
 public class PropertyRepository {
@@ -54,7 +55,19 @@ public class PropertyRepository {
         }
     }
 
-    public PropertyContext getPropertyContext(String propertyId){
-        return MOCK_PROPERTY_CONTEXT_MAP.get(propertyId);
+    public Property getPropertyContext(String propertyId){
+        try {
+            InputStream inputStream = getClass().getResourceAsStream("/mock-properties-enhanced.json");
+            List<Property> allProperties = objectMapper.readValue(inputStream, new TypeReference<List<Property>>() {});
+
+            final int id = Integer.parseInt(propertyId);
+            return allProperties.stream()
+                    .filter(p -> p.getId()==id)
+                    .findFirst()
+                    .orElse(null);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }
