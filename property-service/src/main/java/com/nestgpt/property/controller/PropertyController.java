@@ -25,7 +25,7 @@ public class PropertyController {
     }
 
     @GetMapping("/{id}")
-    public PropertyContext getPropertyContext(@PathVariable("id") String propertyId){
+    public Property getPropertyContext(@PathVariable("id") String propertyId){
         return propertyService.getPropertyContext(propertyId);
     }
 }
