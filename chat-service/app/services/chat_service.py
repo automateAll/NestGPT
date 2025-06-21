@@ -1,4 +1,7 @@
 import httpx
+from certifi import contents
+from starlette.responses import JSONResponse
+
 from app.repositories.property_client import get_property_details
 from app.core.config import GROQ_API_KEY
 
@@ -7,8 +10,7 @@ def build_llm_prompt(property_data, user_query: str) -> str:
     prompt = f"""
     You are a highly learned real estate assistant, 
     You are a witty and knowledgeable real estate assistant. 
-    You answer questions with helpful advice and just the right touch of humor to keep the conversation fun, 
-    but never inappropriate. 
+    You answer questions within 4 lines and if applicable, share links or references. 
 
     User asked: {user_query}
     
@@ -27,11 +29,11 @@ async def get_ai_response(property_id: str, user_query: str) -> str:
     # Prepare the request payload
     payload = {
         "messages": [
-            {"role": "system", "content": "You are a knowledgeable and friendly real estate assistant helping users evaluate properties based on their questions."},
+            {"role": "system", "content": "You are a knowledgeable and friendly real estate assistant helping users evaluate properties based on their questions. Reply concisely and only about the specific property"},
             {"role": "user", "content": prompt}
         ],
         "model": "llama3-70b-8192",  # or whichever model Groq supports
-        "temperature": 0.7
+        "temperature": 0.5
     }
 
     headers = {
@@ -47,6 +49,7 @@ async def get_ai_response(property_id: str, user_query: str) -> str:
         )
 
     if response.status_code == 200:
-        return response.json()["choices"][0]["message"]["content"].strip()
+        content = response.json()["choices"][0]["message"]["content"].strip()
+        return JSONResponse(content={"response": content})
     else:
-        return f"[Groq Error {response.status_code}]: {response.text}"
+        return JSONResponse(status_code=500, content={"error": f"[Groq Error {response.status_code}]: {response.text}"})
