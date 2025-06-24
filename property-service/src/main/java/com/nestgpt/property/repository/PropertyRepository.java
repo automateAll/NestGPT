@@ -19,40 +19,29 @@ public class PropertyRepository {
     private static final Map<String,PropertyContext> MOCK_PROPERTY_CONTEXT_MAP = new HashMap<>();
     private final ObjectMapper objectMapper = new ObjectMapper();
 
-//    static {
-//        MOCK_PROPERTIES.add(new Property("p123"
-//                ,"Bentonville"
-//                ,200000
-//                ,"mockURL1",36.3729, -94.2088));
-//        MOCK_PROPERTIES.add(new Property("p124"
-//                ,"Hicksville"
-//                ,200000
-//                ,"mockURL2", 40.7684, -73.5251));
-//        MOCK_PROPERTIES.add(new Property("p125"
-//                ,"Bentonville"
-//                ,200000
-//                ,"mockURL3", 40.7128, -74.0060
-//                ));
-//
-//        //Initialize the PropertyContext Map
-//        MOCK_PROPERTY_CONTEXT_MAP.put("p123", new PropertyContext("p123","Bentonville"
-//                ,200000,"1998", 4,5, "","",""));
-//    }
-
 
     public List<Property> getPropertiesList(String location){
         try {
             InputStream inputStream = getClass().getResourceAsStream("/mock-properties-enhanced.json");
             List<Property> allProperties = objectMapper.readValue(inputStream, new TypeReference<List<Property>>() {});
 
-            final String searchTerm = location.toLowerCase().trim();
-            return allProperties.stream()
-                    .filter(p -> p.getAddress().toLowerCase().contains(searchTerm))
-                    .collect(Collectors.toList());
+            final String searchString = location.toLowerCase().trim();
+            return propertyLookUp(searchString, allProperties);
+//            return allProperties.stream()
+//                    .filter(p -> p.getAddress().toLowerCase().contains(searchTerm))
+//                    .collect(Collectors.toList());
         } catch (IOException e) {
             e.printStackTrace();
             return Collections.emptyList();
         }
+    }
+
+    private  List<Property> propertyLookUp(String searchString, List<Property> allProperties){
+        return allProperties.stream().filter(l -> (
+                            l.getAddress() != null && l.getAddress().toLowerCase().contains(searchString))
+                        || (l.getCity() != null && l.getCity().toLowerCase().contains(searchString))
+                        || String.valueOf(l.getZip()).contains(searchString))
+                .collect(Collectors.toList());
     }
 
     public Property getPropertyContext(String propertyId){
