@@ -32,7 +32,7 @@ async def get_ai_response(property_id: str, user_query: str) -> str:
             {"role": "system", "content": "You are a knowledgeable and friendly real estate assistant helping users evaluate properties based on their questions. Reply concisely and only about the specific property"},
             {"role": "user", "content": prompt}
         ],
-        "model": "llama3-70b-8192",  # or whichever model Groq supports
+        "model": "llama-3.1-8b-instant",  # or whichever model Groq supports
         "temperature": 0.5
     }
 

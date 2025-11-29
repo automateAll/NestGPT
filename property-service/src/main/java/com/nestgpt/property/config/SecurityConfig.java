@@ -24,7 +24,8 @@ public class SecurityConfig {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/v1/properties/**").authenticated()
+                        // TEMPORARY for local dev: allow property API without auth
+                        .requestMatchers("/v1/properties/**").permitAll()
                         .anyRequest().permitAll()
                 )
                 .oauth2ResourceServer(oauth2 -> oauth2.jwt());
